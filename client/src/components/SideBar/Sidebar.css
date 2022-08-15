@@ -1,0 +1,84 @@
+/**
+ * Author: Smriti Mishra
+ * Feature: UserDashboard
+ */
+
+.sidebar-container {
+  width: 20%;
+  height: 100% !important;
+  border-radius: 1rem;
+  /* background-color: rgb(4, 14, 39); */
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    width: 100%;
+    height: max-content;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .sidebar-container {
+    display: none;
+  }
+}
+
+.sidebar-userprofileContainer {
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sidebar-userphoto {
+  height: 6rem;
+  border-radius: 6rem;
+  margin-top: 25%;
+}
+
+.username {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.sidebar-option-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.sidebar-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  height: 70%;
+}
+
+.sidebar-link-to-pages {
+  margin-left: 35%;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  color: #040e27;
+  cursor: pointer;
+}
+
+.sidebar-contact-container {
+  width: 65%;
+  background-color: #dde2eb;
+  color: #383030;
+  height: 15%;
+  margin: auto auto;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  cursor: pointer;
+
+  @media screen and (min-width: 320px) and (max-width: 1080px) {
+    margin-bottom: 2rem !important;
+  }
+}

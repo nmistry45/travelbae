@@ -1,0 +1,21 @@
+/**
+ * Author: Smily Ms
+ * Feature: Destination Information System
+ */
+.card-overflow-ellipsis{
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    
+  }
+  .destination-image{
+    height: 110px;
+    width: 100%;
+    object-fit: fill;
+  }
+  .text-align-center{
+    text-align: center;
+  }
+  
